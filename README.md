@@ -13,7 +13,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## zustand store
 
-``
+
 import {create} from 'zustand'
 
  // create store using zustand
@@ -24,4 +24,3 @@ import {create} from 'zustand'
     decrement: () => set((state) => ({count: state.count > 0 ? state.count -1 : 0})),
     reset: () => set((state) => ({count: 0}))
  }))
-``
